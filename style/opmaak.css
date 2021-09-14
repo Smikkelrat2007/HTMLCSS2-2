@@ -1,0 +1,46 @@
+header {
+  margin: 0px;
+  padding: 50px;
+  #background: url('https://media.nu.nl/m/ppoxljgayu9r_wd1280.jpg');
+  background-size: cover;
+}
+header h1 {
+  font-size: 250%;
+  font-family: Georgia, serif;
+  color: purple;
+  text-align: center;
+}
+.nav {
+  display: inline;
+  margin: 20px;
+  color: white;
+}
+.nav a {
+  color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  border: lightblue solid 3px;
+  background-color: lightblue;
+}
+.hover a {
+  background-color: darkblue;
+  border: darkblue;
+}
+article {
+  border: 7px solid lightblue;
+  border-radius: 20px;
+  margin: 15px;
+}
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 110%;
+  color: white;
+  background-color: black;
+}
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  background: url('file:///C:/Users/zenof/Downloads/1356216.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+}
