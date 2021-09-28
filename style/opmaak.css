@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 header {
   margin: 0px;
   padding: 50px;
   #background: url('https://media.nu.nl/m/ppoxljgayu9r_wd1280.jpg');
   background-size: cover;
+
 }
 header h1 {
   font-size: 250%;
@@ -10,37 +12,147 @@ header h1 {
   color: purple;
   text-align: center;
 }
-.nav {
+
+
+.nav1 a {
+  color: white;
+  overflow: hidden;
+  border-radius: 500px;
+  border: rgb(34, 102, 102) solid 3px;
+  background-color: rgb(34, 102, 102);
+}
+.nav2 a {
+  color: white;
+  overflow: hidden;
+  border-radius: 500px;
+  border: rgb(34, 102, 102) solid 3px;
+  background-color:rgb(34, 102, 102);
+}
+.nav3 a {
+  color: white;
+  overflow: hidden;
+  border-radius: 500px;
+  border: rgb(34, 102, 102) solid 3px;
+  background-color: rgb(34, 102, 102);
+}
+.nav4 a {
+  color: white;
+  overflow: hidden;
+  border-radius: 500px;
+  border: rgb(34, 102, 102) solid 3px;
+  background-color: rgb(34, 102, 102);
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover {
+  border-color: rgb(170, 108, 57);
+  background-color: rgb(170, 108, 57);
+  color: white;
+}
+
+.nav1 {
+  position: absolute;
+  top:100px;
+  left:15;
   display: inline;
   margin: 20px;
   color: white;
 }
-.nav a {
+
+.nav2 {
+  position: absolute;
+  top:100px;
+  left:115px;
+  display: inline;
+  margin: 20px;
   color: white;
-  overflow: hidden;
-  border-radius: 10px;
-  border: lightblue solid 3px;
-  background-color: lightblue;
+  text-decoration: none;
+}
+.nav3 {
+  position: absolute;
+  top:100px;
+  left:215px;
+  display: inline;
+  margin: 20px;
+  color: white;
+}
+.nav4 {
+  position: absolute;
+  top:100px;
+  left: 340px;
+  display: inline;
+  margin: 20px;
+  color: white;
 }
 .hover a {
   background-color: darkblue;
   border: darkblue;
 }
+#black {
+  background-color: black;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 500px;
+  left: 90px;
+}
+#blue {
+  background-color: blue;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 640px;
+  left: 230px;
+}
+#yelow {
+  background-color: yellow;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 500px;
+  left: 90px;
+}
+#red {
+  background-color: red;
+  z-index: 3;
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 500px;
+  left: 90px;
+}
+#green {
+  background-color: green;
+  z-index: 4;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 600px;
+  left: 190px;
+}
 article {
-  border: 7px solid lightblue;
+  border: 7px solid rgb(170, 132, 57);
   border-radius: 20px;
   margin: 15px;
+  color: white;
 }
 footer h3 {
   text-align: center;
   font-weight: normal;
   font-size: 110%;
   color: white;
-  background-color: black;
+  background-color: rgb(170, 132, 57);
+  border: 3px solid rgb(170, 132, 57);
+  border radius: 20px;
 }
 body {
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background: url('file:///C:/Users/zenof/Downloads/1356216.jpg') no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  #background: url('file:///C:/Users/zenof/Downloads/1356216.jpg') no-repeat;
+  background: rgb(46, 65, 114) no-repeat;
   background-size: cover;
   color: white;
 }
