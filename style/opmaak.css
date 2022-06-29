@@ -82,8 +82,8 @@ ul li a:hover {
   left: 490px;
 }
 #kleurveranderend {
-  width: 100px;
-  length: 1000px;
+  width: 300px;
+  height: 300px;
   background-color: yellow;
   color: yellow;
   float: right;
@@ -92,8 +92,8 @@ ul li a:hover {
   left: 200px;
 }
 #kleurveranderend:hover {
-  width: 100px;
-  length: 1000px;
+  width: 300px;
+  height: 300px;
   background-color: green;
   color: yellow;
   float: right;
@@ -124,7 +124,7 @@ footer h3 {
   background-color: rgb(170, 132, 57);
   border: 3px solid rgb(170, 132, 57);
   border radius: 20px;
-  position: absolute;
+  position: fixed;
   top: 630px;
   left: 0px;
   width: 100%;
